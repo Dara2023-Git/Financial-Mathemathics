@@ -32,24 +32,20 @@ We have four financial assets, and their values (per dollar) in 10 years from to
 For computational convenience, we rearrange the asset value, the expected value, and standard deviation per dollar invested into matrix format as follows:
 
 **Asset value:**
-$$
-X = \begin{pmatrix}
+$$X = \begin{pmatrix}
 X_1 \\
 X_2 \\
 X_3 \\
 X_4 \\
-\end{pmatrix}
-$$
+\end{pmatrix}$$
 
 **Expected value or mean $\mu$ vector:**
-$$
-\mu_{X} = \begin{pmatrix}
+$$\mu_{X} = \begin{pmatrix}
 120 \\
 150 \\
 80 \\
 70 \\
-\end{pmatrix}
-$$
+\end{pmatrix}$$
 
 **Standard deviation $\sigma_{X}$ matrix:**
 The standard deviation is arranged into a diagonal matrix to facilitate the computation process in the later part.
