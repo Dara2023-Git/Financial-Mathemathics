@@ -185,7 +185,7 @@ $$
 
 **2. Standard Deviation of Each Portfolio**
 
-In theory, we can derive $\sigma_P$ from the covariance matrix $ Cov(P) $. The standard deviation matrix $ \sigma_P $ is a diagonal matrix where each diagonal entry is the square root of the variance of portfolio $ p_i $, given by:  
+In theory, we can derive $\sigma_P$ from the covariance matrix $Cov(P)$. The standard deviation matrix $\sigma_P$ is a diagonal matrix where each diagonal entry is the square root of the variance of portfolio $p_i$, given by:  
 
 $$
 Var(p_i) = Cov(p_i, p_i), \quad \text{for } i \in \{1, 2, 3, 4\}
@@ -203,7 +203,7 @@ Cov(p_4, p_1) & Cov(p_4, p_2) & Cov(p_4, p_3) & Cov(p_4, p_4) \\
 \end{pmatrix}
 $$
 
-From this, we can construct the standard deviation matrix $ \sigma_P $:  
+From this, we can construct the standard deviation matrix $\sigma_P$:  
 
 $$
 \sigma_P =
